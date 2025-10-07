@@ -8,7 +8,7 @@
 ![alt text](6th.png)
 
 #### Explanation:
-- Make sure you [understand the CSSBattle environment](../README.md)
+- Make sure you [understand the CSSBattle environment](../../README.md)
 - The ungolfed version looks like this:
 
 ```html
