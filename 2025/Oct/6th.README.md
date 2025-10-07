@@ -1,6 +1,6 @@
-***100% match, 121 characters***
+***100% match, 120 characters***
 ```html
-<p><style>*{background:var(--m,#588A95)}* *{width:140;height:140;margin:80 auto;--m:#222;}p{--m:#fff;transform:skew(45deg
+<p><style>*{background:var(--m,#588A95)}* *{width:140;height:140;margin:20%auto;--m:#222}p{--m:#fff;transform:skew(45deg
 ```
 
 ![alt text](image.png)
