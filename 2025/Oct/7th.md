@@ -76,7 +76,7 @@
 
 #### Syntax Overview
 
-- We use [CSS selectors tip](../../README.md#understanding-css-nesting-example)
+- We use [CSS selectors tip](../../README.md#2-attribute-selectors)
 
 #### Step-by-Step Breakdown
 ##### 1. Create the right‑angle shape on the left while styling `p[a]` and `p[b]`
