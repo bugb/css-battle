@@ -8,7 +8,7 @@
 <p><style>*{background:var(--m,#588A95);*{width:140;height:140;margin:20%auto;--m:#222;*{--m:#fff;transform:skew(45deg
 ```
 
-![alt text](6th.png)
+![alt text](./img/6th.png)
 
 #### Explanation:
 - Make sure you [understand the CSSBattle environment](https://github.com/bugb/css-battle/tree/main)
