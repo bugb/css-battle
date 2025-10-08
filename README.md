@@ -1,4 +1,4 @@
-## Understand the CSSBattle environment
+# Understand the CSSBattle environment
 
 The preview area (where you see your output) is an `iframe` with a fixed size of **400px × 300px**.
 
@@ -50,7 +50,11 @@ By default the environment already includes the root `<html>` and `<body>` eleme
   
 </details>
 
-## Tip and tricks
+# Tip and tricks
+> [!IMPORTANT]  
+> Please dont use them in production.
+
+## A. Selectors
 ### 1. CSS Nesting
 
 [CSS nesting](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_nesting/Using_CSS_nesting) is one of the most commonly used syntaxes in CSSBattle.
@@ -126,3 +130,17 @@ html {
 Here, the `body` element inherits the `background-color` from `html`, but it can also define its own background color value (`#222`).
 
 You can see its usage in [2025-Oct-06th challenge](./2025/Oct/6th.md)
+
+### 2. Attribute selectors
+This is a very powerful way to select elements for formatting.
+[Read more](https://developer.mozilla.org/en-US/docs/Web/CSS/Attribute_selectors)
+
+Example:
+Instead of using `<p class="a"></p>`, we can simply write `<p a>`.
+To target it in CSS, we can use `p[a]`:
+
+```css
+  p[a] {
+    color: skyblue;
+  }
+```
