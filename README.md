@@ -133,7 +133,7 @@ Here, the `body` element inherits the `background-color` from `html`, but it can
 You can see its usage in [2025-Oct-06th challenge](./2025/Oct/6th.md)
 
 ##### The `&` selector
-[https://developer.mozilla.org/en-US/docs/Web/CSS/Nesting_selector](MDN link for the `&` selector)
+[MDN link for the `&` selector](https://developer.mozilla.org/en-US/docs/Web/CSS/Nesting_selector)
 
 ```css
 a {
