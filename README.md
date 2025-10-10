@@ -4,7 +4,7 @@ The preview area (where you see your output) is an `iframe` with a fixed size of
 
 By default the environment already includes the root `<html>` and `<body>` elements, so you use them directly for styling.
 
-![alt text](cssbattle-env.png)
+![alt text](./img/cssbattle-env.png)
 
 <details>
   <summary>See it yourself</summary>
@@ -68,8 +68,9 @@ The syntax look like this:
   }
 }
 ```
-
-##### Understanding CSS nesting Example
+#### Understand CSS nesting examples
+##### CSS nesting with the `var` function
+It is a very powerful way to style dynamic elements and is very common in CSSBattle.
 
 ```html
 <style>
@@ -130,6 +131,34 @@ html {
 Here, the `body` element inherits the `background-color` from `html`, but it can also define its own background color value (`#222`).
 
 You can see its usage in [2025-Oct-06th challenge](./2025/Oct/6th.md)
+
+##### The `&` selector
+[https://developer.mozilla.org/en-US/docs/Web/CSS/Nesting_selector](MDN link for the `&` selector)
+
+```css
+a {
+  &:hover {
+    background: green;
+  }
+}
+```
+The above code is equivalent to:
+```css
+a:hover {
+  background: skyblue;
+}
+```
+In CSSbBattle we can use `&` at root to select the `html` element;
+```html
+<style>
+  & {
+    margin: 5%;
+    outline: solid red 10px ;
+  }
+</style>
+```
+![alt text](./img/the&selector.png)
+
 
 ### 2. Attribute selectors
 This is a very powerful way to select elements for formatting.
