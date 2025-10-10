@@ -173,3 +173,46 @@ To target it in CSS, we can use `p[a]`:
     color: skyblue;
   }
 ```
+
+# Get top submissions
+![alt text](./img/get-top-submissions.png)
+Click on `Top solutions` and run this:
+```javascript
+// returns a markdown string for up to `limit` submissions
+function topSubmissionsToMarkdown(limit = 10) {
+  const base = 'https://cssbattle.dev';
+  const nodes = Array.from(document.querySelectorAll('.top-submission-container')).slice(0, limit);
+
+  function extractScoreInfo(scoreText) {
+    // examples of scoreText: "Score: 707.36 {138}, 100% match"
+    const charsMatch = scoreText.match(/\{(\d+)\}/);
+    const percentMatch = scoreText.match(/(\d+)%\s*match/);
+    return {
+      characters: charsMatch ? charsMatch[1] : '',
+      percent: percentMatch ? percentMatch[1] + '%' : ''
+    };
+  }
+
+  return nodes.map((el, idx) => {
+    // author link & name
+    const a = el.querySelector('.top-submission__author a.name-link') || el.querySelector('.top-submission__author a.avatar-link');
+    const href = a ? (a.getAttribute('href') || '') : '';
+    const fullHref = href.startsWith('http') ? href : (base + href);
+    const name = (el.querySelector('.name-link span') || el.querySelector('.top-submission__author a.name-link'))?.textContent?.trim() || (a?.getAttribute('aria-label') || '').replace('@','');
+
+    // score line (contains chars and %match)
+    const scoreLine = (el.querySelector('.top-submission__author__score')?.textContent || '').trim();
+    const { characters, percent } = extractScoreInfo(scoreLine);
+
+    // code content (raw text inside the code editor)
+    const codeNode = el.querySelector('.cm-content') || el.querySelector('.submissions-list__code');
+    // prefer .textContent to preserve original characters/newlines
+    const code = codeNode ? codeNode.textContent.trim() : '';
+
+    return `#### ${idx+1}. [${name}](${fullHref}) ${percent} match, ${characters} characters\n\`\`\`html\n${code}\n\`\`\``;
+  }).join('\n\n');
+}
+
+// Example usage:
+console.log(topSubmissionsToMarkdown(10));
+```

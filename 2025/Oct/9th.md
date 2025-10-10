@@ -1,11 +1,11 @@
 ### My solution
-[Play the challenge](https://cssbattle.dev/play/hTcOgzNi1XUkGiJVQFXG)
+[Play the challenge](https://cssbattle.dev/play/JifHruTv42KU6VSBoAKy)
 
 ### My solution
 
-***100% match, 288 characters***
+***100% match, 287 characters***
 ```html
-<style>*{&::before,&::after{content:'';position:absolute;width:80;height:var(--n,80);background:var(--m,#F0CD48);top:60;left:240;}&::after{--n:60;--m:#5AA4B7;clip-path:polygon(0 0,75%50%,0 100%);}border:var(--b,solid)60px#243D83;margin:60 80;width: 120;height:60;*{background:#F0CD48;--b:
+<style>*{&::before,&::after{content:'';position:absolute;width:80;height:var(--n,80);background:var(--m,#F0CD48);top:60;left:240;}&::after{--n:60;--m:#5AA4B7;clip-path:polygon(0 0,75%50%,0 100%);}border:var(--b,solid)60px#243D83;margin:60 80;width:120;height:60;*{background:#F0CD48;--b:
 ```
 
 ![alt text](./img/9th.png)
@@ -136,51 +136,52 @@ There will have many ways but I use: `clip-path: polygon(0 0, 75%50%, 0 100%);`
 
 ![alt text](./img/9-3.png)
 
-### Top 10 solutions (maximum 170 characters):
-#### 1. [PINPAL](https://cssbattle.dev/player/pinpal)
+#### 1. [Ilya Streltsyn](https://cssbattle.dev/player/selenit) 100% match, 138 characters
 ```html
-<style>*{background:#050044;border:solid+5ic#D62E65;border-radius:7lh/8pc;margin:34%56;*{corner-shape:notch;margin:-128-168-9in;font:6px/4'
-```
-#### 2. [H_Bliertz](https://cssbattle.dev/player/h_blierzt)
-```html
-<stylE>*{background:#050044;border-radius:21pc/21em;border:solid 5em#D62E65;margin:34%56;*{corner-shape:notch;margin:-128-336-800;font:38%'
-```
-#### 3. [James Whitehead](https://cssbattle.dev/player/wi328v9RQHXQ73SxzWKIKa6m6jg1)
-```html
-<style>*{background:#050044;border:solid 5em#D62E65;border-radius:7lh/8pc;margin:34%56;*{corner-shape:notch;margin:-128-168-250;font:6px/4'
+<style>*{background:conic-gradient(from 243deg at 51%7em,#8FD8 15%,#F0CD48 0);margin:-142-81%40 100}&{margin:60 80;border:solid 64q#243D86
 ```
 
-#### 4. [Beo](https://cssbattle.dev/player/beo)
+#### 2. [Gabriele](https://cssbattle.dev/player/gabriele19) 100% match, 142 characters
 ```html
-<style>*{margin:34%56;border-radius:7lh/8pc;background:#050044;border:solid+5em#D62E65;*{margin:-128-612-300;corner-shape:notch;font:38%/14.39'
+<style>*{margin:-219-60 40 100;background:conic-gradient(from 243deg at 75%5cm,#5AA4B7,14.8%,#F0CD48 0)}&{margin:60 80;border:64q solid#243D83
 ```
 
-#### 5. [emohdaziz](https://cssbattle.dev/player/emohdaziz)
+#### 3. [Juraj Rojko](https://cssbattle.dev/player/jrojko) 100% match, 142 characters
 ```html
-<p>.<stYle>*{background:#050044;border:5em solid#d62e65}&{border-radius:5pc;margin:34%56;*{border-bottom:0;margin:0-185;*{margin:-36%155}font:2vh/8pc"
+<style>&{border:solid 64q#243D86}*{margin:15%80;*{margin:-80-99 33%100;--b:from 243rad,#8FD8 15%,}background:conic-gradient(var(--b,)#F0CD48 0
 ```
 
-#### 6. [Veit Lehmann](https://cssbattle.dev/player/levito)
+#### 4. [Gunnar Bittersmann](https://cssbattle.dev/player/gunnar) 100% match, 144 characters
 ```html
-<hr size=130><style>*{border:5em solid#D62E65;background:#050044}&{margin:34%56;border-radius:1in;*{margin:0-174;border-width:30 30 0;*{margin:-38%144
+<style>&{margin:60 80;border:64q solid#243D86}*{*{margin:-80-84%40 100;--a:53deg}background:conic-gradient(from 620rad,#8fd8 var(--a,),#F0CD48 0
 ```
 
-#### 7. [Ludvig](https://cssbattle.dev/player/ludvig)
+#### 5. [H_Bliertz](https://cssbattle.dev/player/h_blierzt) 100% match, 144 characters
 ```html
-<hr size=130><STYLE>&{border-radius:5pc}*{background:#050044;margin:34%56;border:5em solid#D62E65;*{margin:0-166;border-width:30 30 0;*{margin:-158 136
+<stylE>*{margin:60 70;background:#F0CD48;*{box-shadow:25vw -63q#5AA4B7,0 0 0 63q#243D83;clip-path:polygon(-89%-9lh,134%-50%,50%5vw,233%5vw,0 5in
 ```
 
-#### 8. [David Eguiluz](https://cssbattle.dev/player/eguiluz)
+#### 6. [Veit Lehmann](https://cssbattle.dev/player/levito) 100% match, 144 characters
 ```html
-.....<a>. .......<style>&{border-radius:5pc;color:d62e65;border:5pc solid;margin:34%56;*{margin:-11-155;background:#050044;a{outline:32Q solid}font:17pc/8pc"
+<style>&{margin:60 80;border:64q solid#243D83}*{*{--b:85.5%,#5AA4B7 0;margin:-80-84%40 100}background:conic-gradient(from 68rad,#F0CD48 var(--b,
 ```
 
-#### 9. [KoenH](https://cssbattle.dev/player/koenh)
+#### 7. [Sascha Adams](https://cssbattle.dev/player/saschaadams) 100% match, 147 characters
 ```html
-<p><style>&{border-radius:5em}*{background:#050044;border:var(--b,5em)solid#D62E65;margin:34%56;*{--b:32q;margin:0-200;height:8em;*{margin:-158 170;border-bottom:0
+<stYle>&{border:64q solid#243D83}*{margin:15%80;background:conic-gradient(from 243deg,var(--c,)#F0CD48 0);*{margin:-80-83%40 100;--c:#5AA4B7 14.9%,
 ```
 
-#### 10. [Martijn](https://cssbattle.dev/player/f9KZ3V3bdfaQx0oOfxY5VYVvLGW2)
+#### 8. [Nick](https://cssbattle.dev/player/nicktheromaniancoder) 100% match, 147 characters
 ```html
-<p><style>*{background:#050044;border:var(--w,5pc)solid#D62E65;margin:136 56;border-radius:5em;*{margin:0-250;height:128;--w:32q;border-bottom:0;*{margin:-158 220;font:0'
+<style>*{background:conic-gradient(from 243deg,#5AA4B7 var(--n,),#F0CD48 0)}&{border:64q solid#243D83;margin:15%80;*{margin:-80-83%40 100;--n:14.8%
+```
+
+#### 9. [Shubham Shah](https://cssbattle.dev/player/grayskull) 100% match, 147 characters
+```html
+<style>*{background:conic-gradient(from 243deg,#5AA4B7 var(--n,),#F0CD48 0)}&{border:64q solid#243D83;margin:15%80;*{margin:-80-83%33%100;--n:14.8%
+```
+
+#### 10. [David Eguiluz](https://cssbattle.dev/player/eguiluz) 100% match, 148 characters
+```html
+<style>*{margin:-80-220 40 100;background:conic-gradient(from 23.1rad,#5aa4b7 53deg,#0000 0)space -63Q#f0cd48}&{border:64Q solid#243d83;margin:60 80
 ```
