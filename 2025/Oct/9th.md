@@ -69,19 +69,72 @@
 - Then, I set the width and height to match the output border.
 
 - a small tip: `--b: none` is the same as `--b:`
-
 ![alt text](./img/9-1.png)
 
+Steps 2 and 3 use [Tree-Abiding pseudo-elements](https://developer.mozilla.org/en-US/docs/Web/CSS/Pseudo-elements#tree-abiding_pseudo-elements) so there's no need to add new elements to the DOM.
+
+##### 2. Add a square element as an overlay above the HTML border
+```diff
+<style>  
++  * {
++    &::before,
++    &::after {
++      content:'';
++      position: absolute;
++      width: 80px;
++      height: var(--n,80px);
++      background:var(--m,#F0CD48);
++      top: 60px;
++      left: 240px;
++    }
+    border: var(--b,solid) 60px #243D83;
+    margin: 60 80;
+    width: 120px;
+    height: 60px;
+    * {
+      background: #F0CD48;
+      --b: none;
+    }
+  }
+</style>
+```
+![alt text](./img/9-2.png)
 
 
-##### 2. Add the quarter circle using `border-top-left-radius:100%`
-![alt text](./img/7th-2.png)
+##### 3. Add the triangle
+There will have many ways but I use: `clip-path: polygon(0 0, 75%50%, 0 100%);`
 
-##### 3. Flip the group from steps 1 and 2 to the right with `transform: scaleX(-1)`
-![alt text](./img/7th-3.png)
+```diff
+<style>  
+  * {
+    &::before,
+    &::after {
+      content:'';
+      position: absolute;
+      width: 80px;
+      height: var(--n,80px);
+      background:var(--m,#F0CD48);
+      top: 60px;
+      left: 240px;
+    }
++    &::after{
++      --n: 60px;
++      --m: #5AA4B7;
++      clip-path: polygon(0 0, 75%50%, 0 100%);
++    }
+    border: var(--b,solid) 60px #243D83;
+    margin: 60 80;
+    width: 120px;
+    height: 60px;
+    * {
+      background: #F0CD48;
+      --b: none;
+    }
+  }
+</style>
+```
 
-##### 4. Add the final missing rectangle (`p[d]`)
-![alt text](./img/7th-4.png)
+![alt text](./img/9-3.png)
 
 ### Top 10 solutions (maximum 170 characters):
 #### 1. [PINPAL](https://cssbattle.dev/player/pinpal)
